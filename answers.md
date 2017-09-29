@@ -91,3 +91,6 @@ subbutton1 = document.querySelector('#submit')
 subbutton1.disabled ="true"
 
 <!-- We should help Panda protect their privacy by erasing their personal details from the sidebar. -->
+hideinfo = document.querySelector(".bio-info")
+hideinfo.hidden = "true"
+"true"
