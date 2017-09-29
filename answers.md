@@ -7,21 +7,21 @@ Hacking Panda the Bear's Resume
 
 <!-- PROTIP: use the inspector to learn the dimensions of the current profile image and use a placeholder image service such as Place Bear to get an image of the same size. -->
 
-pic = document.querySelector(".profile-image");
-pic.src = "https://placebear.com/400/400"
+	pic = document.querySelector(".profile-image");
+		pic.src = "https://placebear.com/400/400"
 
 <!-- Use the same approach to select the element that contains the photo of the sky and change the src attribute to another picture URL of your choosing. -->
 
 sky = document.querySelector("#left-image > img");
-sky.src = "https://placebear.com/300/300"
-"https://placebear.com/300/300"
-"https://placebear.com/300/300"
+	sky.src = "https://placebear.com/300/300"
+	"https://placebear.com/300/300"
+		"https://placebear.com/300/300"
 
 
 <!-- Select the heading that says "Panda the Bear" and change it to your own name. -->
 
-heading = document.querySelector("h1.highlight");
-heading.innerText = "Octopus";
+	heading = document.querySelector("h1.highlight");
+		heading.innerText = "Octopus";
 
 
 <!-- Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector) -->
@@ -32,14 +32,15 @@ job.innerText = "Job";
 
 <!-- Change the colour of the body. document.body or document.querySelector("body") will work the same here-->
 
-newbody = document.body;
-newbody.style.color = "blue";  
+	newbody = document.body;
+		newbody.style.color = "blue";  
 <!-- if i want to change a style I could have changed in css -> call style.(whateveriwanttochange) -->
 
 <!-- Change the colour of each element using the highlight class. Use a for loop to do this. -->
-for (var i =0; i < allele.length; i++) {
-allele[i].style.color = "yellow";
-}
+	allele= document.querySelectorAll(".highlight")
+		for (var i =0; i < allele.length; i++) {
+			allele[i].style.color = "yellow";
+	}
 
 "yellow"
 
@@ -72,6 +73,9 @@ message.placeholder= "State ur business"
 
 <!-- Give the name field a "value" attribute of "your nemesis". -->
 
+nemesis = document.querySelector("#name")
+nemesis.defaultValue = "Your Nemesis"
+"Your Nemesis"
 
 
 <!-- Change the value attribute of the email field to "koalathebear@gmail.com". -->
