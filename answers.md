@@ -30,7 +30,6 @@ job = document.querySelector("#employment > h3");
 job.innerText = "Job";
 "Job";
 
-
 <!-- Change the colour of the body. document.body or document.querySelector("body") will work the same here-->
 
 newbody = document.body;
@@ -38,7 +37,7 @@ newbody.style.color = "blue";
 <!-- if i want to change a style I could have changed in css -> call style.(whateveriwanttochange) -->
 
 <!-- Change the colour of each element using the highlight class. Use a for loop to do this. -->
-for (var i =0; i < allele.length; i++); {
+for (var i =0; i < allele.length; i++) {
 allele[i].style.color = "yellow";
 }
 
@@ -51,18 +50,29 @@ mons.style.fontFamily = "monospace";
 
 <!-- Find a way to select the round icons in the sidebar and then change their colour. -->
 
-roundi = document.querySelectorAll(".action-icon-bg")
-
-
-for (var i =0; i <roundi.length; i++); {
-roundi[i].style.backgroundColor="blue" ;  
+roundj = document.querySelectorAll(".action-icon-bg")
+for (var k =0; k <roundj.length; k++)  {
+console.log(k,roundj,roundj[k]);
+roundj[k].style.backgroundColor = "blue" ;  
 }
 
+
+
 <!-- Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself". -->
+inform = document.querySelector("#name")
+inform.placeholder = "kljsaefefkaeh"
+<!-- #= ID's . (period) = class -->
+
+#name.contact-info
 
 <!-- Change the placeholder attribute of the message field to "state your business". -->
 
+message = document.querySelector("#message")
+message.placeholder= "State ur business"
+
 <!-- Give the name field a "value" attribute of "your nemesis". -->
+
+
 
 <!-- Change the value attribute of the email field to "koalathebear@gmail.com". -->
 
