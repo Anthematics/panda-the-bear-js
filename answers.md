@@ -79,9 +79,15 @@ nemesis.defaultValue = "Your Nemesis"
 
 
 <!-- Change the value attribute of the email field to "koalathebear@gmail.com". -->
+email2 = document.querySelector("#name")
+email2.defaultValue = koalathebear@gmail.com
 
 <!-- Change the value of the submit button on the contact form to "En garde!". -->
+subbutton = document.querySelector('#submit')
+subbutton.defaultValue ="En garde"
 
 <!-- We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute). -->
+subbutton1 = document.querySelector('#submit')
+subbutton1.disabled ="true"
 
 <!-- We should help Panda protect their privacy by erasing their personal details from the sidebar. -->
