@@ -114,8 +114,13 @@ portfolioc.appendChild(pikachuClone);
 
 <!-- Let’s add a message about when the page was last updated. We'll do this by appending a new <li> element to the <ul> in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier). -->
 
+var bio-info = document.querySelector('.bio-info')
 var listItem = document.createElement('li');
 var leftSpan = document.createElement('span');
 var lastUpdated = document.createTextNode('Page last updated on');
-leftSpan.appendChild(lastUpdated;)
+leftSpan.appendChild(lastUpdated);
 listItem.appendChild(leftSpan);
+var nameClass = document.querySelectorAll('li') nameClass[3].setAttribute('class','bio-info-item')
+
+
+MUST DEBUG -> Properly select Bioinfo in query selector and add it to the attributes.
