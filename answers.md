@@ -104,6 +104,16 @@ portfolioc.appendChild(pikachuClone)
 
 <!-- Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this. -->
 
+pikachu = document.querySelector("#right-image > img")
+pikachuClone = pikachu.cloneNode(true)
+
+portfolioc = document.querySelector('.portfolio-container')
+
+for (var pika =0; pika < 10; pika++)  {
+(portfolioc[pika].appendChild(pikachuClone);  
+}
+
+
 <!-- Let’s add a message about when the page was last updated. We'll do this by appending a new <li> element to the <ul> in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier). -->
 
 
